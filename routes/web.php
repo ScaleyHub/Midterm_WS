@@ -27,3 +27,6 @@ Route::get('/home', [
 
 
 Route::resource('medicalAppointments', App\Http\Controllers\MedicalAppointmentController::class);
+
+
+Route::resource('logs', App\Http\Controllers\LogsController::class);
